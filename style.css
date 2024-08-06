@@ -1,0 +1,154 @@
+body {
+    background-image: url(3.jpg);
+    background-size: cover;
+    text-align: center;
+}
+
+@font-face{
+    font-family:Beiruti;
+    src: url(Beiruti-Light.ttf);
+}
+
+@font-face{
+    font-family:Exo;
+    src: url(Exo-VariableFont_wght.ttf);
+}
+
+
+div.barraprincipal{
+margin: 1%;
+background-color: rgb(84, 54, 99);
+border-radius: 20px;
+}
+
+button{
+    color: rgb(12, 12, 12);
+    background-color: rgb(245, 216, 243);
+    font-family: 'Exo';
+    font-size: 15px;
+    border-radius: 20px;
+}
+
+button:hover{
+    background-color: rgb(164, 127, 182);
+    color: whitesmoke;
+}
+
+div.Saludo{
+    display: flex;
+    color: rgb(84, 54, 99);
+    font-family: 'Beiruti';
+    text-align: center;
+    font-weight: normal;
+    font-size: 15px;
+    margin-left: 25%;
+    margin-right: 25%; 
+}
+
+div.Presentacion {
+    display: flex;
+    color: rgb(84, 54, 99);
+    font-family: 'Exo';
+    text-align: center;
+    font-weight: normal;
+    font-size: 20px;
+    margin-left: 25%;
+    margin-right: 25%;    
+}
+
+.imagen {
+    margin: 10px;
+}
+
+.texto{
+    margin: auto;
+    background-color: rgb(252, 240, 240);
+    border-radius: 20px;
+}
+
+table.Habilidades{
+    margin:auto;
+    color: rgb(84, 54, 99);
+    font-family: 'Exo';
+    font-weight: normal;
+    font-size: 17px;
+    background-color: rgb(252, 240, 240);
+    border-radius: 30px;
+}
+
+table.Interfaz {
+    margin-left: auto; margin-right: auto;
+}
+
+p#DownloadCV{
+    color: rgb(84, 54, 99);
+    font-family: 'Exo';
+    text-align: center;
+    font-weight: normal;
+    font-size: 16px;
+    background-color: rgb(252, 240, 240);
+    border-radius: 30px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+p#Contact{
+    color: rgb(84, 54, 99);
+    font-family: 'Exo';
+    text-align: center;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+table.Contact {
+    margin-left: auto; margin-right: auto;
+}
+
+p.mail{
+    color: rgb(84, 54, 99);
+    font-family: 'Exo';
+    text-align: center;
+    font-weight: normal;
+    font-size: 13px;
+}
+
+p.mailtitulo{
+    color: rgb(84, 54, 99);
+    font-family: 'Exo';
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+a{
+    color: rgb(187, 76, 131);
+    font-family: 'Exo';
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+a:hover{
+    color: rgb(116, 28, 72);
+    font-family: 'Exo';
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+p.piedepag{
+    background-color: rgb(27, 13, 34);
+    color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 13px;
+    border-radius: 20px;
+}
+
+img.sup{
+    margin-inline-end: 80%;
+}
+
+img.inf{
+    margin-inline-end: 80%;
+}
