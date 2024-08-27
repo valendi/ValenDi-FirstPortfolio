@@ -29,7 +29,7 @@ button{
     border-radius: 20px;
 }
 
-@media (max-width: 480px){
+@media (max-width: 400px){
     button{
         font-size: 10px;
     }
@@ -51,6 +51,14 @@ div.Saludo{
     margin-right: 25%; 
 }
 
+@media (max-width: 768px){
+    div.Saludo{
+        display: contents;
+        margin-left: 10%;
+        margin-right: 10%; 
+    }
+}
+
 @media (max-width: 480px){
     div.Saludo{
         display: contents;
@@ -59,13 +67,6 @@ div.Saludo{
     }
 }
 
-@media (max-width: 768px){
-    div.Saludo{
-        display: contents;
-        margin-left: 10%;
-        margin-right: 10%; 
-    }
-}
 
 div.Presentacion {
     display: flex;
@@ -78,17 +79,17 @@ div.Presentacion {
     margin-right: 25%;    
 }
 
-@media (max-width: 480px){
+@media (max-width: 768px){
     div.Presentacion {
-        display: contents;
+        display: contents; 
         margin-left: 10%;
         margin-right: 10%;    
     }
 }
 
-@media (max-width: 768px){
+@media (max-width: 480px){
     div.Presentacion {
-        display: contents; 
+        display: contents;
         margin-left: 10%;
         margin-right: 10%;    
     }
