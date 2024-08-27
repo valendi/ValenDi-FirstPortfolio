@@ -15,7 +15,6 @@ body {
     src: url(Exo-VariableFont_wght.ttf);
 }
 
-
 div.barraprincipal{
 margin: 1%;
 background-color: rgb(84, 54, 99);
@@ -46,6 +45,22 @@ div.Saludo{
     margin-right: 25%; 
 }
 
+@media (max-width: 480px){
+    div.Saludo{
+        display: contents;
+        margin-left: 10%;
+        margin-right: 10%; 
+    }
+}
+
+@media (max-width: 768px){
+    div.Saludo{
+        display: contents;
+        margin-left: 10%;
+        margin-right: 10%; 
+    }
+}
+
 div.Presentacion {
     display: flex;
     color: rgb(84, 54, 99);
@@ -55,6 +70,22 @@ div.Presentacion {
     font-size: 20px;
     margin-left: 25%;
     margin-right: 25%;    
+}
+
+@media (max-width: 480px){
+    div.Presentacion {
+        display: contents;
+        margin-left: 10%;
+        margin-right: 10%;    
+    }
+}
+
+@media (max-width: 768px){
+    div.Presentacion {
+        display: contents; 
+        margin-left: 10%;
+        margin-right: 10%;    
+    }
 }
 
 .imagen {
