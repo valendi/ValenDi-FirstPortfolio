@@ -29,6 +29,12 @@ button{
     border-radius: 20px;
 }
 
+@media (max-width: 480px){
+    button{
+        font-size: 10px;
+    }
+}
+
 button:hover{
     background-color: rgb(164, 127, 182);
     color: whitesmoke;
