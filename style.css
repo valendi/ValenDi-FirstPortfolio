@@ -116,7 +116,8 @@ table.Habilidades{
 }
 
 table.Interfaz {
-    margin-left: auto; margin-right: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 p#DownloadCV{
@@ -129,6 +130,7 @@ p#DownloadCV{
     border-radius: 30px;
     margin-left: 25%;
     margin-right: 25%;
+    padding: 5px;
 }
 
 p#Contact{
@@ -140,7 +142,8 @@ p#Contact{
 }
 
 table.Contact {
-    margin-left: auto; margin-right: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 p.mail{
